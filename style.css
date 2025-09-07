@@ -1,0 +1,114 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #353434;
+  flex-direction: column;
+}
+
+.example {
+  font-size: 14px;
+  color: #111;
+  margin-bottom: 16px;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  cursor: pointer;
+  user-select: all;
+}
+
+.card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 1px 6px 18px rgb(255, 0, 0);
+  width: 100%;
+  max-width: 420px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #d7dbe6;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button#calc {
+  background: #eb2525;
+  color: #fff;
+}
+
+button#reset {
+  background: #eef2ff;
+  color: #111;
+}
+
+.result {
+  margin-top: 14px;
+  padding: 12px;
+  background: #f3f7ff;
+  border-radius: 8px;
+  border: 1px solid #e6eefc;
+  word-break: break-all;
+  cursor: pointer;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 8px;
+}
+
+.footer {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #556;
+  text-align: center;
+}
+
+.creator {
+    text-align: center;
+    /* margin-top: 14px; */
+    font-size: 12px;
+    color: #556;
+}
+
+.credits-a {
+    color: red;
+}
+
+pre {
+    /* margin-top: 12px; */
+    margin-bottom: 0px;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AMKA Generator | 1.0 | By billpsem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="example" id="example">AMKA To Use: 10040303033</div>
+  <main class="card">
+    <h1>ΑΜΚΑ Generator 1.0</h1>
+    <form id="form">
+      <label for="num">Εισάγετε το τυχαίο ΑΜΚΑ σας</label>
+      <input id="num" name="num" type="text" inputmode="numeric" autocomplete="off" placeholder="π.χ. 00123456789" maxlength="11" />
+      <div class="error" id="error" role="alert" aria-live="polite"></div>
+      <div class="row">
+        <button id="calc" type="submit">Υπολογισμός</button>
+        <button id="reset" type="button">Εκκαθάριση</button>
+      </div>
+    </form>
+
+    <div class="result" id="result" aria-live="polite" hidden></div>
+    <footer class="footer">Ελέγξτε ότι το ΑΜΚΑ σας είναι σωστό</footer>
+    <footer class="creator">
+      <pre>Made By <a class="credits-a" href="https://www.instagram.com/billpsem_official/">BillPsem</a></pre>
+    </footer>
+  </main>
+
+  <script src="script.js"></script> <!-- Σύνδεση του JavaScript αρχείου -->
+</body>
+</html>

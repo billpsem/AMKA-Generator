@@ -3,3 +3,5 @@ Copyright © 2025 billpsem
 All rights reserved.
 
 This code may not be copied, distributed, sold, or used in any form without explicit written permission from the author.
+
+The code is provided for educational purposes only. The author is not responsible for any misuse, illegal activity, or damages arising from the use of this code.
